@@ -511,7 +511,7 @@ header .sign-up:hover {
 /* =========== Blog =========== */
 .blog {
   background-color: #fffcf4;
-  padding: 96px 135px 140px;
+  padding: 96px 135px;
 }
 
 .blog .info {
@@ -590,4 +590,92 @@ header .sign-up:hover {
 .info-blog .btn:hover {
   background-color: var(--secondary-color);
   transition: all 0.4;
+}
+
+.blog .dots {
+  justify-content: center;
+  margin-top: 3.8rem;
+  display: flex;
+  gap: 6px;
+}
+
+/* =========== Footer =========== */
+footer {
+  background-color: #2e2100;
+  padding: 96px 135px 28px;
+}
+
+footer .info {
+  font-size: 14px;
+  line-height: 26px;
+  width: 267px;
+}
+
+footer .info .desc {
+  margin: 18px 0;
+  color: #bfbcb2;
+}
+
+footer .info .social {
+  display: flex;
+  gap: 18px;
+}
+
+footer .row {
+  display: flex;
+  gap: 13rem;
+}
+
+footer .wrap {
+  display: flex;
+  gap: 14.5rem;
+}
+
+footer .line {
+  width: 130px;
+  height: 0.5px;
+  border-radius: 0.5;
+  margin-top: 14px;
+  margin-bottom: 16px;
+  background-color: #59554b;
+}
+
+footer .item .title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+footer .item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+footer .item li a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #bfbcb2;
+}
+
+footer .item a bold {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  color: #fff;
+}
+
+footer .line-footer {
+  height: 0.5px;
+  border-radius: 0.5;
+  margin-top: 38px;
+  margin-bottom: 28px;
+  background-color: #59554b;
+}
+
+footer .desc {
+  color: #807d74;
+  text-align: center;
 }
