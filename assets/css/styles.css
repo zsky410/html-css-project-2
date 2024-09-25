@@ -507,3 +507,87 @@ header .sign-up:hover {
 .cta-2 .info {
   width: 57rem;
 }
+
+/* =========== Blog =========== */
+.blog {
+  background-color: #fffcf4;
+  padding: 96px 135px 140px;
+}
+
+.blog .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5.5rem;
+}
+
+.blog .info .desc {
+  margin-top: 1.6rem;
+  width: 44.8rem;
+  text-align: center;
+}
+
+.blog-item {
+  display: flex;
+  gap: 3rem;
+}
+
+.blog-item .item {
+  width: 37rem;
+  min-height: 46.6rem;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+.blog-item .item:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+.blog-item .item > img {
+  width: 100%;
+  height: 27.8rem;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.info-blog {
+  padding: 2rem 2rem 2.8rem 2rem;
+}
+
+.blog-item .info-blog .line {
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5;
+  margin: 1.2rem 0;
+  background-color: #e2dfda;
+}
+
+.info-blog .blog-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--primary-color);
+  line-height: 28px;
+  margin-bottom: 12px;
+}
+
+.info-blog .time {
+  position: relative;
+  padding-left: 1rem;
+}
+
+.info-blog .time::before {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 40%;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+
+.info-blog .btn:hover {
+  background-color: var(--secondary-color);
+  transition: all 0.4;
+}
