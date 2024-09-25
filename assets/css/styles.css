@@ -58,6 +58,22 @@ a {
   padding: 0 2.1rem;
 }
 
+.title {
+  font-family: Sen;
+  font-size: 3.8rem;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  color: var(--primary-color);
+}
+
+.desc {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--sub-text);
+}
+
 /* =========== Header =========== */
 header {
   background-color: #fffcf4;
@@ -147,21 +163,15 @@ header .sign-up:hover {
 }
 
 .hero-content .title {
-  font-family: Sen;
   font-size: 5.8rem;
-  font-weight: 600;
   line-height: 68px;
-  letter-spacing: -0.02em;
-  color: var(--primary-color);
 }
 
 .hero-content .desc {
   margin-top: 2rem;
   margin-bottom: 3.8rem;
   font-size: 1.8rem;
-  font-weight: 400;
   line-height: 30px;
-  color: var(--sub-text);
 }
 
 .hero-content .action {
@@ -276,4 +286,224 @@ header .sign-up:hover {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
+}
+
+/* =========== Courses =========== */
+.courses {
+  padding: 20rem 0;
+}
+
+.courses .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses .info .title {
+  margin-bottom: 1.6rem;
+}
+
+.courses .info .desc {
+  width: 45.8rem;
+}
+
+.courses .slides-control {
+  display: flex;
+  gap: 18px;
+}
+
+.courses-list {
+  display: flex;
+  gap: 3rem;
+  margin-top: 5.5rem;
+}
+
+.courses-list .courses-item {
+  width: 37rem;
+  height: 46.6rem;
+  border: 1px solid #e2dfda;
+  border-radius: 12px;
+}
+
+.courses-item:hover {
+  border: none;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  cursor: pointer;
+}
+
+.courses-item > img {
+  width: 100%;
+  height: 27.8rem;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.courses-info {
+  padding: 16px 22px 22px;
+}
+
+.courses-info .row div {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.courses-info .row .title {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+
+.courses-info .row div span {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #fea31b;
+}
+
+.courses-info .desc {
+  margin-top: 6px;
+  margin-bottom: 12px;
+  font-size: 1.4rem;
+}
+
+.courses-info .price {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  color: var(--primary-color);
+}
+
+.courses-info .btn-hover:hover {
+  background-color: var(--secondary-color);
+  transition: all 0.4s;
+}
+
+/* =========== Review =========== */
+.review {
+  padding: 96px 135px;
+  background-color: #2e2100;
+}
+
+.review .row {
+  display: flex;
+  align-items: center;
+  gap: 23.1rem;
+}
+
+.student {
+  min-width: 16.9rem;
+}
+
+.student .avatar {
+  width: 7.2rem;
+  height: 7.2rem;
+  border-radius: 50%;
+}
+
+.student .name {
+  font-family: Sen;
+  font-size: 24px;
+  font-weight: 600;
+  color: #f7f7f7;
+  margin-top: 1.8rem;
+  margin-bottom: 0.4rem;
+}
+
+.student .position {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #bfbcb2;
+  margin-bottom: 2.8rem;
+}
+
+.student .dots {
+  display: flex;
+  gap: 6px;
+}
+
+.dots span {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #634700;
+  border-radius: 50%;
+}
+
+.dots span:nth-child(2) {
+  background-color: #ffb900;
+}
+
+.quote p {
+  font-size: 26px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 40px;
+  color: #fff;
+  padding-left: 30px;
+}
+
+/* =========== CTA =========== */
+
+.cta-section {
+  padding: 20rem 13.5rem;
+}
+
+.cta-1 .row,
+.cta-2 .row {
+  display: flex;
+  gap: 13rem;
+  align-items: center;
+}
+
+.cta-1 .img {
+  display: flex;
+  width: 57rem;
+  height: 43.8rem;
+  gap: 3rem;
+}
+
+.cta-1 .img img {
+  width: 27rem;
+  height: 40rem;
+  object-fit: cover;
+  border-radius: 1.6rem;
+}
+
+.cta-1 .img img:first-child {
+  align-self: flex-end;
+}
+.cta-1 .img img:last-child {
+  align-self: flex-start;
+}
+
+.cta-1 .info .desc,
+.cta-2 .info .desc {
+  margin: 1.6rem 0;
+}
+
+.cta-1 .info .btn,
+.cta-2 .info .btn {
+  background-color: var(--secondary-color);
+  margin-top: 3.2rem;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.cta-2 {
+  margin-top: 20rem;
+}
+
+.cta-2 img {
+  width: 47rem;
+  height: 40rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.cta-2 .info {
+  width: 57rem;
 }
